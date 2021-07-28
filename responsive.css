@@ -1,0 +1,55 @@
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .lesson {
+   width: 50%;
+   margin-bottom: 50px;
+  }
+  .heading h2 {
+    font-size: 20px;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  .signup {
+    width:100% ;
+  }
+  .facebook {
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .twitter {
+    width: 100%;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .btn-wrapper p {
+    text-align: center;
+  }
+  .lesson {
+    width:100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+}
